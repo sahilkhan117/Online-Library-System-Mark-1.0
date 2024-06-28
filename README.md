@@ -39,6 +39,7 @@ Online Library Sysytem
 |   |-- ...
 |
 |-- IMAGES
+|   |-- library_background.png
 |   |-- c_icon.png
 |   |-- screenshot.png
 |   |-- ...
