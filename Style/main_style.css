@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: url(../IMAGES/lib.png);
+	color: white;
+}
+
+h1 {
+    font-size: 5vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.top {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+iframe {
+	background: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+	height: 20vw;
+    width: 20vw;
+
+    border: 1px solid rgba(255, 255, 255, 0.294);
+    border-radius: 25px;
+
+    min-height: 280px;
+    min-width: 250px;
+}
+
+iframe:hover {
+    position: relative;
+    top: -10px;
+    box-shadow: 0 0 10px white;
+    background: rgba(0, 0, 0, 0.7);
+}
